@@ -46,10 +46,13 @@ But if the data is almost sorted in the order, which means the best case, it tak
 
 Quick sort is the most popular algorithm among three. Quick sort uses a pivot. Pivot is a criteria to swap data. Pivot selection is very important part of quick sort because it influences time complexity.
 
-Lomuto Partion:
+Lomuto Partition:
 
 Pivot is the last one in data.
 
 Quick sort is using left and right pointers which start from the left(0 in the list), left goes until it meets data smaller than pivot, and right goes until it meets data bigger than pivot. When both of them stop, swap two data and left and right pointer go to the next one. When right reaches the end, swap pivot and data pointed by left. Now there are smaller data on the left of pivot and bigger are on the right. Do it on the left data and the right. Repeat until it is over, sorting is completed. 
 
 It takes O(NlogN) on average but in worst case, it take O(N^2), so selecting an adequete pivot is very importan part of it.
+
+
+
