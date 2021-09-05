@@ -20,6 +20,29 @@ BFS' Flow
 
 
 
+## Binary Search
+
+### Sequential Search
+
+Sequential Search is looking a specific data by looping an iterable from start to end.  It is normally used to find a data in unsorted data set. Its time complexity of worst case to find out is O(N).
+
+
+
+### Binary Search
+
+Binary Search is comparing start, end and mid to find out a specific data. In order to do this, data set is neccessarily sorted. Its worst case time complexity is O(logN), so it is faster than Sequential Search. 
+
+In database, Tree data structure is frequently used. Searching data in tree is little bit different to binary search but it is similar. Tree's most basic structure is Binary search Tree.  Binary Search Tree has 4 basic rules.
+
+1. nodes in the node's left subtree have smaller value than the node's value.
+2. nodes in the node's right subtree have larger value than the node's value.
+3. left subtree and right subtree also follows rule 1 and 2
+4. overlapped data is not allowed.
+
+Searching in this tree is actually same with binary search as its name.
+
+
+
 
 
 # Sorting
